@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<SimBase.Document Type="SimAirport" version="1,0">
+  <SimBase.Latitude>24.78</SimBase.Latitude>
+  <SimBase.Longitude>93.93</SimBase.Longitude>
+  <ICAO>VEIM</ICAO>
+  <Airport id="VEIM">
+    <ATCUse>Airport</ATCUse>
+
+    <!-- Runway 02/20 -->
+    <Runway>
+      <PatternType>Both</PatternType>
+      <HeadingDeg>20</HeadingDeg>
+      <Length>1700</Length>
+      <Width>45</Width>
+      <Surface>Asphalt</Surface>
+      <LatLongList>
+        <LatLon Alt="0">24.7790,93.9320</LatLon>
+        <LatLon Alt="0">24.7930,93.9365</LatLon>
+      </LatLongList>
+    </Runway>
+
+    <!-- Parking Stands -->
+    <AirportParking>
+      <Parking id="VEIM_St1">
+        <Name>Stand 1</Name>
+        <Category>Commuter</Category>
+        <PositionLatLong Alt="0">24.78605,93.93412</PositionLatLong>
+        <HeadingDeg>120</HeadingDeg>
+      </Parking>
+      <Parking id="VEIM_St2">
+        <Name>Stand 2</Name>
+        <Category>Commercial</Category>
+        <PositionLatLong Alt="0">24.78575,93.93382</PositionLatLong>
+        <HeadingDeg>120</HeadingDeg>
+      </Parking>
+      <Parking id="VEIM_St3">
+        <Name>Stand 3</Name>
+        <Category>Commercial</Category>
+        <PositionLatLong Alt="0">24.78545,93.93352</PositionLatLong>
+        <HeadingDeg>120</HeadingDeg>
+      </Parking>
+      <Parking id="VEIM_St4">
+        <Name>Stand 4</Name>
+        <Category>Commercial</Category>
+        <PositionLatLong Alt="0">24.78515,93.93322</PositionLatLong>
+        <HeadingDeg>120</HeadingDeg>
+      </Parking>
+    </AirportParking>
+
+    <!-- Taxiways -->
+    <Taxiway id="TWY_A">
+      <Name>A</Name>
+      <Surface>Asphalt</Surface>
+      <Width>23</Width>
+      <Points>
+        <LatLon Alt="0">24.79305,93.9365</LatLon>
+        <LatLon Alt="0">24.7910,93.9359</LatLon>
+        <LatLon Alt="0">24.7878,93.9350</LatLon>
+        <LatLon Alt="0">24.7864,93.9344</LatLon>
+      </Points>
+    </Taxiway>
+    <Taxiway id="TWY_B">
+      <Name>B</Name>
+      <Surface>Asphalt</Surface>
+      <Width>23</Width>
+      <Points>
+        <LatLon Alt="0">24.7864,93.9344</LatLon>
+        <LatLon Alt="0">24.7858,93.9338</LatLon>
+      </Points>
+    </Taxiway>
+    <Taxiway id="TWY_C">
+      <Name>C</Name>
+      <Surface>Asphalt</Surface>
+      <Width>23</Width>
+      <Points>
+        <LatLon Alt="0">24.7858,93.9338</LatLon>
+        <LatLon Alt="0">24.7852,93.9332</LatLon>
+      </Points>
+    </Taxiway>
+    <Taxiway id="TWY_D">
+      <Name>D</Name>
+      <Surface>Asphalt</Surface>
+      <Width>23</Width>
+      <Points>
+        <LatLon Alt="0">24.7852,93.9332</LatLon>
+        <LatLon Alt="0">24.7847,93.9328</LatLon>
+      </Points>
+    </Taxiway>
+
+    <!-- Terminal Building -->
+    <AirportObject>
+      <Name>Terminal Building</Name>
+      <LatLongList>
+        <LatLon Alt="0">24.7855,93.9339</LatLon>
+      </LatLongList>
+      <CustomBaseName>AirportTerminal</CustomBaseName>
+    </AirportObject>
+
+    <!-- Control Tower -->
+    <AirportObject>
+      <Name>Control Tower</Name>
+      <LatLongList>
+        <LatLon Alt="0">24.7861,93.9344</LatLon>
+      </LatLongList>
+      <CustomBaseName>ControlTower</CustomBaseName>
+    </AirportObject>
+
+  </Airport>
+</SimBase.Document>
