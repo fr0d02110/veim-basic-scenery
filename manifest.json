@@ -1,0 +1,11 @@
+{
+  "packageName": "veim_enhanced_basic",
+  "version": "1.0.0",
+  "author": "YourName",
+  "dependencies": [
+    "SimObjectWorld"
+  ],
+  "contentDescriptors": [
+    "SCENERY"
+  ]
+}
