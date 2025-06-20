@@ -1,0 +1,16 @@
+{
+  "content_type": "SCENERY_PACKAGE",
+  "title": "VEIM Enhanced Basic Scenery",
+  "package_version": "1.0.0",
+  "dependencies": [
+    "veim_primary"
+  ],
+  "scenery": [
+    {
+      "name": "veim_primary",
+      "path": "Scenery/veim_primary",
+      "source": "VEIM",
+      "type": "airport"
+    }
+  ]
+}
